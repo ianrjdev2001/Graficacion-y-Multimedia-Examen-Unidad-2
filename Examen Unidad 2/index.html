@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Unidad 2</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        canvas {
+            display: block;
+        }
+        div{
+            background-color:rgb(255,255,255);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>    
+    <div>
+        <h1>1: Punto pendiente - 2: DDA - 3: Bresenham</h1>
+        <strong>Número de partes:</strong>
+        <input type="text" id="parts" value="0" maxlength="3" onkeypress="return solonumeros(event)"/>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="sketch.js"></script>
+</body>
+</html>
